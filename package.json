@@ -12,6 +12,7 @@
     "lint:styles": "stylelint \"./src/**/*.(css)\" --fix",
     "lint:editor": "eclint fix",
     "update": "cra-update",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "husky": {
