@@ -11,7 +11,8 @@
     "lint:scripts": "eslint --fix . --ext .ts,.tsx src",
     "lint:styles": "stylelint \"./src/**/*.(css)\" --fix",
     "lint:editor": "eclint fix",
-    "update": "cra-update"
+    "update": "cra-update",
+    "deploy": "gh-pages -d build"
   },
   "husky": {
     "hooks": {
